@@ -1,0 +1,25 @@
+{
+  "name": "corpo-bello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --env.dev",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilamaia/corpo-bello.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camilamaia/corpo-bello/issues"
+  },
+  "homepage": "https://github.com/camilamaia/corpo-bello#readme",
+  "devDependencies": {
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
