@@ -9,7 +9,7 @@ class CorpoBello extends Component {
     return (
       <div className="corpo-bello">
         <Header/>
-        <div>
+        <div className="content">
           <section id="section-1">
             <Home/>
             Section 1 <br/>
