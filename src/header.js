@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
-import './header.css';
+
+import './style/header.css';
 
 class Header extends Component {
 
@@ -53,8 +54,8 @@ class Header extends Component {
           <li className='menu'>
             <Scrollspy items={ ['headerAnchor', 'massotherapyAnchor', 'section-3'] } 
               currentClassName="is-current">
-              <li className="s1" ><a href="#headerAnchor">section 1</a></li>
-              <li className="s2" ><a href="#massotherapyAnchor">section 2</a></li>
+              <li className="s1" ><a href="#header-anchor">section 1</a></li>
+              <li className="s2" ><a href="#massotherapy-anchor">section 2</a></li>
               <li className="s3" ><a href="#section-3">section 3</a></li>
             </Scrollspy>
           </li>

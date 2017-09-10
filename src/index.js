@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
+import './style/index.css';
+
 import CorpoBello from './corpo-bello';
 import registerServiceWorker from './registerServiceWorker';
 
