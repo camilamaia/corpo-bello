@@ -1,18 +1,68 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './corpo-bello.css';
+import Header from './header.js';
+import Home from './sections/home.js';
 
 class CorpoBello extends Component {
   render() {
     return (
       <div className="corpo-bello">
-        <div className="corpo-bello-header">
-          <img src={logo} className="corpo-bello-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+        <Header/>
+        <div>
+          <section id="section-1">
+            <Home/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+            Section 1 <br/>
+          </section>
+          <section id="section-2">
+            Section 2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+            2 <br/>
+          </section>
+          <section id="section-3">
+            Section 3 <br/>
+          </section>
         </div>
-        <p className="corpo-bello-intro">
-          To get started, edit <code>src/corpo-bello.js</code> and save to reload.
-        </p>
       </div>
     );
   }
