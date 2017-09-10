@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './corpo-bello.css';
-import Header from './header.js';
+import Header from './sections/header/header.js';
+import MassotherapySection from './sections/massotherapySection/massotherapySection.js';
 import Home from './sections/home.js';
 
 class CorpoBello extends Component {
@@ -10,54 +11,25 @@ class CorpoBello extends Component {
       <div className="corpo-bello">
         <Header/>
         <div className="content">
-          <section id="section-1">
+          <section id="headerAnchor">
             <Home/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
-            Section 1 <br/>
+            <br/><br/><br/><br/>1<br/><br/><br/><br/><br/><br/>2<br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/>3<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>4<br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>5<br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
           </section>
-          <section id="section-2">
-            Section 2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
-            2 <br/>
+          <section id="massotherapyAnchor">
+            <MassotherapySection/>
+            <br/><br/><br/>1<br/><br/><br/><br/><br/>2<br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>3<br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/>4<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>5<br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
           </section>
           <section id="section-3">
             Section 3 <br/>

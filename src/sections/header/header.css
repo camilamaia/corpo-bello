@@ -4,6 +4,10 @@
     width: 100%;
 }
 
+li.logo {
+    margin: 2% 2% 2% 2%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
