@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import logo from './images/logo.svg';
 import './style/corpo-bello.css';
 
@@ -13,7 +12,7 @@ class CorpoBello extends Component {
       <div className="corpo-bello">
         <Header/>
         <div className="content">
-          <section id="header-anchor">
+          <section id="home-anchor">
             <Home/>
             <br/><br/><br/><br/>1<br/><br/><br/><br/><br/><br/>2<br/><br/><br/><br/>
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
