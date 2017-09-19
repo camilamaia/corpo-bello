@@ -1,11 +1,16 @@
 .header {
-    position: fixed;
     top: 0;
     width: 100%;
 }
 
 li.logo {
-    margin: 2% 2% 2% 2%;
+    width: 20%;
+    height: auto;
+}
+
+li.logo img{
+    width: 100%;
+    height: auto;
 }
 
 ul {
@@ -13,7 +18,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
 
 li {
