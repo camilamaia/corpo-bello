@@ -1,7 +1,13 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
 .corpo-bello {
   text-align: center;
 }
 
-.content {
-  margin-top: 5%;
+.cover {
+  padding: 2%;
+  background-image: url('./../images/background-section1-3.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
