@@ -1,42 +1,37 @@
 .header {
-    top: 0;
-    width: 100%;
+  top: 0;
+  width: 100%;
 }
 
 li.logo {
-    width: 20%;
-    height: auto;
+  width: 20%;
+  height: auto;
 }
 
-li.logo img{
-    width: 100%;
-    height: auto;
+li.logo img {
+  width: 100%;
+  height: auto;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li.menu {
-    float: right;
+  float: right;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-
-li a:hover {
-    background-color: #111;
-}
-

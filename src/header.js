@@ -8,18 +8,26 @@ class Header extends Component {
   render() {
     return (
       <ul className="header">
-          <li className='logo'>
-            <img src={logo} alt="Logo" />
-          </li>
-          <li className='menu'>
-            <Scrollspy items={ ['headerAnchor', 'massotherapyAnchor', 'section-3'] } 
-              currentClassName="is-current">
-              <li className="s1" ><a href="#header-anchor">section 1</a></li>
-              <li className="s2" ><a href="#massotherapy-anchor">section 2</a></li>
-              <li className="s3" ><a href="#section-3">section 3</a></li>
-            </Scrollspy>
-          </li>
-      </ul> 
+        <li className="logo">
+          <img src={logo} alt="Logo" />
+        </li>
+        <li className="menu">
+          <Scrollspy
+            items={['headerAnchor', 'massotherapyAnchor', 'section-3']}
+            currentClassName="is-current"
+          >
+            <li className="s1">
+              <a href="#header-anchor">Home</a>
+            </li>
+            <li className="s2">
+              <a href="#massotherapy-anchor">section 2</a>
+            </li>
+            <li className="s3">
+              <a href="#section-3">section 3</a>
+            </li>
+          </Scrollspy>
+        </li>
+      </ul>
     );
   }
 }

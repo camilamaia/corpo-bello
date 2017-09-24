@@ -1,29 +1,13 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
 .corpo-bello {
   text-align: center;
 }
 
 .cover {
   padding: 2%;
-}
-
-.cover-background {
-	visibility: visible;
-	z-index: -100;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	overflow: hidden;
-	transform: translate3d(0px, 0px, 0px);
-	height: 604px;
-	width: 1285px;
-}
-
-.cover-background img {
-	transform: translate3d(0px, 0px, 0px);
-	position: absolute;
-	left: 0px;
-	width: 100%;
-	height: auto;
-	max-height: 80%;
-	opacity: 0.6;
+  background-image: url('./../images/background-section1-3.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
