@@ -12,7 +12,8 @@ class HeaderButton extends Component {
     };
 
     var scrollToItem = function (item) {
-      var diff=(item.offsetTop-window.scrollY)/20;
+      var smoothness = 20
+      var diff=(item.offsetTop-window.scrollY)/smoothness;
       if(!window._lastDiff){
           window._lastDiff = 0;
       }
@@ -23,7 +24,8 @@ class HeaderButton extends Component {
 
           if(diff !== window._lastDiff){
               window._lastDiff = diff;
-              window._TO=setTimeout(scrollToItem, 15, item);
+              var milisecondsExecution = 15;
+              window._TO=setTimeout(scrollToItem, milisecondsExecution, item);
           }
       } else {
           window.scrollTo(0, item.offsetTop)
