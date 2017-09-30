@@ -26,7 +26,6 @@ class HeaderButton extends Component {
               window._TO=setTimeout(scrollToItem, 15, item);
           }
       } else {
-//          console.timeEnd('test');
           window.scrollTo(0, item.offsetTop)
       }
     }     

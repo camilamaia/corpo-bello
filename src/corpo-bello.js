@@ -9,11 +9,6 @@ import Home from './sections/home.js';
 
 class CorpoBello extends Component {
   render() {
-
-
-
-
-
     return (
       <div className="corpo-bello">
         <Header/>
