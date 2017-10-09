@@ -24,7 +24,7 @@ li.menu {
     float: right;
 }
 
-li a {
+li {
     display: block;
     color: white;
     text-align: center;
@@ -32,7 +32,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li:hover {
     background-color: #111;
 }
 

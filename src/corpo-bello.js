@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import logo from './images/logo.svg';
+//import logo from './images/logo.svg';
 import './style/corpo-bello.css';
 
 import Header from './header.js';
